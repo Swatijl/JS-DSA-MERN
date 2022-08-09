@@ -1,87 +1,107 @@
-body{
+body {
     font-family: Trebuchet MS;
     background-color: #000000;
     background-image: linear-gradient(315deg, #000000 0%, #7f8c8d 74%);
     color: white;
 
 }
-.highlight-color{
-    color:#feee6e;
+
+.highlight-color {
+    color: #feee6e;
 }
-h2{
+
+h2 {
     text-transform: capitalize;
     text-decoration: underline;
 }
-h3{
+
+h3 {
     text-decoration: underline;
     margin-top: 0px;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
-strong{
+
+strong {
     text-transform: uppercase;
 }
-img{
+
+img {
     height: 254px;
     margin-top: 30px;
 }
-header{
+
+header {
     display: flex;
     justify-content: center;
 }
-article{
+
+article {
     display: flex;
     align-items: baseline;
 }
-section{
+
+section {
     margin: 20px;
 }
-fieldset{
+
+fieldset {
     border: 5px solid white;
     border-radius: 35px;
 }
-.context{
+
+.context {
     padding: 10px;
 }
-.grid-form{
+
+.grid-form {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: baseline;
     padding: 10px;
 }
-label{
+
+label {
     padding: 10px;
     width: 100px;
 }
-input{
+
+input {
     padding: 10px;
-    border-radius: 5px;;
+    border-radius: 5px;
     margin: 10px;
     border: none;
     width: 50%;
 }
-input[type=checkbox], input[type=radio]{
+
+input[type=checkbox],
+input[type=radio] {
     cursor: pointer;
 }
-.form-label{
+
+.form-label {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-.radio-btn{
+
+.radio-btn {
     width: 8%;
     margin: 0px;
-    
+
 }
-.title-lbl{
+
+.title-lbl {
     padding: 0px;
     width: 50px;
 }
-legend{
+
+legend {
     font-size: 20px;
     text-align: center;
     text-transform: capitalize;
 }
-button{
+
+button {
     margin-left: auto;
     margin-right: auto;
     width: 15%;
@@ -93,23 +113,27 @@ button{
     display: flex;
     justify-content: center;
 }
-button:hover{
+
+button:hover {
     background: black;
     color: white;
     cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
-   article{
-    display: block;
-   }
-   .grid-form{
-    display: block;
-   }
-   button{
-    width: 100%;
-   }
-   img{
-    height: 200px;
-   }
+    article {
+        display: block;
+    }
+
+    .grid-form {
+        display: block;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    img {
+        height: 200px;
+    }
 }
